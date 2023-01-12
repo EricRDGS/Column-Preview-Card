@@ -1,0 +1,61 @@
+.main{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 100px));
+    padding: 3em 7em;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    background-color: var(--neutral-very-light);
+}
+
+.main .section{
+    height: 500px;
+    padding: 2.7em 3.2em;
+    color: var(--neutral-very-light);
+}
+
+.main .section.sedans{
+    background-color: var(--primary-bright);
+    color: var(--primary-bright);
+}
+
+.main .section.suvs{
+    background-color: var(--primary-dark);
+    color: var(--primary-dark);
+}
+
+.main .section.luxury{
+    background-color: var(--primary-very-dark);
+    color: var(--primary-very-dark);
+}
+
+.main .section .title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 38px 0;
+}
+
+.main .section .text{   
+    line-height: 25px;
+    text-align: justify;
+    color: var(--neutral-very-light);
+}
+
+.main .section .btn{
+    text-align: center;
+    margin-top: 60px;
+    padding: 12px 0;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 22px;
+    border: 2px solid #fff;
+}
+
+.main .section .btn:hover{
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    background-color: transparent;
+    color: #fff;
+}
